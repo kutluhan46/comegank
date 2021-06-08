@@ -2,13 +2,12 @@ const Discord = require('discord.js');
 
 exports.run = async (client, message, args) => {
 
-let kayityetkili = '751439982660681759' //KAYIT YETKİLİSİ ID
-let verbuse = '751439986288623667' //VERİLECEK ROL ID
-let verbusem = '751439986288623667' //VERİLECEK ROL ID
-let albuse = '751439996166340618' //ALINACAK ROL ID
-let albusem = '' //ALINACAK ROL ID l Kullanmicaksanız silin
+let kayityetkili = '' //KAYIT YETKİLİSİ ID
+let verbuse = '' //VERİLECEK ROL ID
+let verbusem = '' //VERİLECEK ROL ID
+let albuse = '' //ALINACAK ROL ID
 let isimön = '' //DEĞİŞTİRİLECEK İSMİN ÖNÜNE GELEN
-let isimson = '⁴⁶' //DEĞİŞTİRİLECEK İSMİN SONUNA GELEN
+let isimson = '' //DEĞİŞTİRİLECEK İSMİN SONUNA GELEN
 
 //TİK İSMİNDE BİR EMOJİNİZ OLMASI LAZIM (Hareketli Olsa Daha Güzel Gözükür)
 
@@ -42,7 +41,7 @@ let isimson = '⁴⁶' //DEĞİŞTİRİLECEK İSMİN SONUNA GELEN
         **Teyit Eden Yetkili :**  ${message.author}  \n 
         **Kayıt Islemınde Verılen Rol :** <@&${verbuse}> \n
         **Alınan Rol :** <@&${albuse}>`)
-client.channels.get('782618496008847391').send(embed)
+client.channels.get('Kayıt Kanalının ID'si').send(embed)
 };
   
 
